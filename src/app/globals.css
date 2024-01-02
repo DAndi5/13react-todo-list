@@ -1,0 +1,80 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*--------------------------------------------------*/
+/*:root {*/
+/*  --foreground-rgb: 0, 0, 0;*/
+/*  --background-start-rgb: 214, 219, 220;*/
+/*  --background-end-rgb: 255, 255, 255;*/
+/*}*/
+
+/*@media (prefers-color-scheme: dark) {*/
+/*  :root {*/
+/*    --foreground-rgb: 255, 255, 255;*/
+/*    --background-start-rgb: 0, 0, 0;*/
+/*    --background-end-rgb: 0, 0, 0;*/
+/*  }*/
+/*}*/
+
+/*body {*/
+/*  color: rgb(var(--foreground-rgb));*/
+/*  background: linear-gradient(*/
+/*      to bottom,*/
+/*      transparent,*/
+/*      rgb(var(--background-end-rgb))*/
+/*    )*/
+/*    rgb(var(--background-start-rgb));*/
+/*}*/
+/*--------------------------------------------------*/
+.overdue .accordion-button {
+    background-image: linear-gradient(to bottom right, #F3B7A5, #E4572E) !important
+}
+
+.done .accordion-button {
+    background-image: linear-gradient(to bottom right, #B7D897, #76B041) !important;
+}
+
+.in-progress .accordion-button{
+    background-image: linear-gradient(to bottom right, #FFE285, #FFC914) !important;
+}
+
+.weather-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.icon-hover:hover {
+    cursor: pointer;
+}
+/*--------------------------------------------------*/
+/* AddForm */
+form {
+    /*margin: 2rem auto;*/
+    width: 100%;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    min-width: 20rem;
+
+    background-image: linear-gradient(to bottom right, white, gray) !important
+}
+/*--------------------------------------------------*/
+.accordion-item {
+    background-image: linear-gradient(to bottom right, gray, white) !important
+}
+
