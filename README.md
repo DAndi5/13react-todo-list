@@ -5,7 +5,7 @@
 [//]: # (#### A project built for resurrecting the countless abandonware repos littering GitHub. The goal is to make it easier to turn any repo, no matter how old, and turn it into a working GitHub Codespace.)
 [//]: # (#### Thrilled to introduce the official release of Bootstrap project, your all-in-one note-making app! 🚀)
 #### Committed to making Bootstrap project the best note-making app possible. If you have any feedback, suggestions, or encounter any issues, please let us know by opening an issue on GitHub.
-#### Showcasing the use of local storage in Next.js with TypeScript, utilizing hooks and Redux.
+#### Showcasing the use of local storage in Next.js with TypeScript, utilizing hooks and context.
 [//]: # (Thank  for you choosing. We hope you enjoy this release, and we look forward to enhancing your note-taking journey in the future!)
 
 ## 📖 TODO
